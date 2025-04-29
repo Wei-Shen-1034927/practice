@@ -1,0 +1,48 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
+    margin: 0;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#boxContainer {
+    width: auto;
+    display: flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    padding: 20px;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+}
+
+#box1 {
+    background-color: red;
+}
+
+#box2 {
+    background-color: lightblue;
+}
+
+#box3 {
+    background-color: orange;
+}
+
+#box4 {
+    background-color: purple;
+}
